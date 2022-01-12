@@ -11,9 +11,9 @@
   <li><a href ="#number10">Cài đặt phòng</a></li>
   <li><a href ="#number11">Đuổi</a></li>
   <li><a href ="#number12">Xem lịch sử</a></li>
-  <li><a href ="#number13">Cài đặt phòng</a></li>
-  <li><a href ="#number14">Cài đặt phòng</a></li>
-  <li><a href ="#number15">Cài đặt phòng</a></li>
+  <li><a href ="#number13">Bầu chọn trưởng làng</a></li>
+  <li><a href ="#number14">Nhường trưởng làng</a></li>
+  <li><a href ="#number15">Bắt đầu và Sẳn sàng</a></li>
   <li><a href ="#number16">Cài đặt phòng</a></li>
   <li><a href ="#number17">Cài đặt phòng</a></li>
   <li><a href ="#number18">Cài đặt phòng</a></li>
@@ -69,10 +69,24 @@ Bấm vào biểu tượng ☰ -> Chọn cài đặt -> Thay đổi mật khẩu
 
 <h1 id="number11"> Đuổi </h1>
 
-Bấm vào biểu tượng ☰ -> Chọn kick
+Bấm vào biểu tượng ☰ -> Chọn kick -> Máy cho hiện danh sách tất cả người đang trong phòng -> Bấm kick vào ai thì -> Api(DelPlayer) xóa dữ liệu người đó ra khỏi ROOMDETAIL
 
 <h1 id="number12"> Xem lịch sử </h1>
 
 Bấm vào biểu tượng ☰ ở MainActivity -> Chọn lịch sử -> Api(GetHistoryList) lấy dữ liệu  (HISTORYID, SL, TIME)
 
 Muốn xem chi tiết lịch sử -> Bấm vào lịch sử muốn xem -> Api(GetHistory) láy dữ liệu (START_TIME, END_TIME, STORYES[START_TIME, END_TIME, CONTENT]) và danh sách người đã chơi (TÊN, HÌNH, BAI, WIN)
+
+<h1 id="number13"> Bầu chọn trưởng làng </h1>
+
+Nếu có trên 7 người chơi thì Activity Vote trưởng làng được hiện ra -> Mỗi người chọn một người -> Gửi TK chọn lên RealTime -> RealTime sau khi nhận đủ số lượng phiếu hoặc hết thời gian thì bắt đầu tổng hợp người có phiếu cao nhất -> Trả về cho các người chơi, ai là được bầu sẽ hiện icon Trưởng Làng, mọi người còn lại sẽ thấy người đó trong danh sách có icon Trưởng Làng.
+
+<h1 id="number14"> Nhường trưởng làng </h1>
+
+Nếu trưởng làng bị chết thì hiện ra Activity chọn trưởng làng -> Gửi TK chọn lên RealTime -> RealTime trả về cho các người chơi, ai là được bầu sẽ hiện icon Trưởng Làng, mọi người còn lại sẽ thấy người đó trong danh sách có icon Trưởng Làng.
+
+<h1 id="number15"> Bắt đầu và Sẳn sàng </h1>
+
+Khi bấm sẵn sàng thì -> Api(Ready) cập nhật tình trạng sẳn sàng của người chơi vào bảng ROOMDETAIL -> gửi TK lên RealTime -> RealTime trả về những người chơi còn lại -> Máy của chủ phòng kiểm tra số lượng người sẵn sàng bằng số lượng người chơi thì hiện nút START.
+
+khi bấm START -> Api(Start) cập nhật tình trạng phòng vào bảng ROOM -> Gửi lệnh bắt đầu lên RealTime -> Tùy thuộc vòa số lượng người chơi RealTime tự động phân chia bài cho mỗi người -> Gửi bài về cho mỗi người -> Máy của m0ỗi người chuyển qua Player Activity, nếu dữ liệu nhận về là phù thủy thì có 2 icon bình thuốc hiện lên.
