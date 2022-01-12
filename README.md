@@ -166,7 +166,7 @@ Qua nhiều ngày sống chung với làng anh Bảo Vệ(E) đã đem lòng th�
 
 Sáng thứ 4
 
-Không gì quá bất ngời đến với mọi người về sự ra đi của anh E, mọi người lại bồn xồn lên và đưa ra quyết định cho chị K lên phán quyết. Với kinh nghiệm nhiều lần nghe của những người đi trước nên chị K đã chứng minh sự trong sạch của bản thân.
+Không gì quá bất ngờ đến với mọi người về sự ra đi của anh E, mọi người lại bồn xồn lên và đưa ra quyết định cho chị K lên phán quyết. Với kinh nghiệm nhiều lần nghe của những người đi trước nên chị K đã chứng minh sự trong sạch của bản thân.
 
 Đêm thứ 5 
 
