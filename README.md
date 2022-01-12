@@ -14,9 +14,8 @@
   <li><a href ="#number13">13/ Bầu chọn trưởng làng</a></li>
   <li><a href ="#number14">14/ Nhường trưởng làng</a></li>
   <li><a href ="#number15">15/ Bắt đầu và Sẳn sàng</a></li>
-  <li><a href ="#number16">16/ Cài đặt phòng</a></li>
-  <li><a href ="#number17">Cài đặt phòng</a></li>
-  <li><a href ="#number18">Cài đặt phòng</a></li>
+  <li><a href ="#number16">16/ Trò chơi</a></li>
+  <li><a href ="#number17">17/ Viết chuyện</a></li>
 </ul>
 
 <h1 id="number01"> Đăng ký </h1>
@@ -93,4 +92,38 @@ Nếu trưởng làng bị chết thì hiện ra Activity chọn trưởng làng
 
 Khi bấm sẵn sàng thì -> Api(Ready) cập nhật tình trạng sẳn sàng của người chơi vào bảng ROOMDETAIL -> gửi TK lên RealTime -> RealTime trả về những người chơi còn lại -> Máy của chủ phòng kiểm tra số lượng người sẵn sàng bằng số lượng người chơi thì hiện nút START.
 
-khi bấm START -> Api(Start) cập nhật tình trạng phòng vào bảng ROOM -> Gửi lệnh bắt đầu lên RealTime -> Tùy thuộc vòa số lượng người chơi RealTime tự động phân chia bài cho mỗi người -> Gửi bài về cho mỗi người -> Máy của m0ỗi người chuyển qua Player Activity, nếu dữ liệu nhận về là phù thủy thì có 2 icon bình thuốc hiện lên.
+khi bấm START -> Api(Start) cập nhật tình trạng phòng vào bảng ROOM -> Gửi lệnh bắt đầu lên RealTime -> Tùy thuộc vòa số lượng người chơi RealTime tự động phân chia bài cho mỗi người -> Gửi bài về cho mỗi người -> Máy của mỗi người chuyển qua Player Activity, nếu dữ liệu nhận về là phù thủy thì có 2 icon bình thuốc hiện lên.
+
+<h1 id="number16"> Trò chơi </h5>
+
+Chờ đợi 5s trước khi bắt đầu, để RealTime gữi mỗi người 1 lá bài.
+
+Nếu bài là Sói, khi được gọi thì chọn 1 người trong danh sách không phải sói để giết hoặc bỏ qua, nếu chọn thì -> Máy sẽ hiện lên thông báo "Bạn muốn chọn ...." -> Đưa TK về RealTime -> RealTime sẽ kiểm tra số người bị chết nhìu người muốn giết -> Lưu lại vào mảng những người vừa chết -> Gọi con bài tiếp theo.
+
+Nếu bài là Sói Trắng, cứ 2 đêm sẽ được gọi riêng để giết 1 sói trong đám sói hoặc bỏ qua, nếu chọn thì -> Máy sẽ hiện lên thông báo "Bạn muốn chọn ...." -> Đưa TK về RealTime -> RealTime thêm TK đó vào mảng người vừa chết.
+
+Nếu bài là Tiên Tri, khi được gọi thì bạn 1 người trong danh sách hoặc bỏ qua, nếu chọn thì -> Máy sẽ hiện lên thông báo "Bạn muốn chọn ...." -> Đưa TK về RealTime -> RealTime sẽ trả dữ liệu về, nếu đúng thì thông báo "Bạn đã đoán đúng", nếu sai thì thông báo "Bạn đã đoán sai" -> Gọi con bài tiếp theo.
+
+Nếu bài là Thợ Săn, khi được gọi thì chọn 1 người trong danh sách để giết hoặc bỏ qua, nếu chọn thì -> Máy sẽ hiện lên thông báo "Bạn muốn chọn ...." -> Đưa TK về RealTime -> RealTime lưu TK đó vào mảng những người vừa chết -> Gọi con bài tiếp theo.
+
+Nếu bài là Cupid, Chọn 2 người trong danh sách -> Máy sẽ hiện lên thông báo "Bạn muốn chọn ...." -> Đưa 2 TK về RealTime -> RealTime sẽ lưu 2 TK vào mảng tình yêu -> RealTime gửi dữ liệu về 2 TK -> Máy sẽ hiện icon trái tim -> Gọi con bài tiếp theo.
+
+Nếu bài là Phù thủy -> Máy kiểm tra bình cứu đã dùng chưa, nếu chưa thì -> RealTime sẽ đưa danh sách người vừa chết về và hiện thông báo "Bạn có muốn cứu ai không" -> Bấm chọn 1 người hoặc bỏ qua, nếu chọn thì -> Máy sẽ hiện lên thông báo "Bạn muốn chọn ...." -> Đưa TK về RealTime -> RealTime xóa TK ra khỏi mảng người vừa chết -> Máy kiểm tra bình giết đã dùng chưa, Nếu chưa thì -> Máy hiện thông báo "Bạn có muốn giết ai không" -> Bạn chọn 1 người trong danh sách hoặc bỏ qua, nếu chọn thì -> Máy sẽ hiện lên thông báo "Bạn muốn chọn ...." -> Đưa TK về RealTime -> RealTime thêm TK vào mảng người vừa chết.
+
+Nếu bài là Bảo vệ -> Chọn 1 người trong danh sách để bảo vệ -> Máy sẽ hiện lên thông báo "Bạn muốn chọn ...." -> Máy lưu lại tài khoản đã bảo vệ để đêm sau kh được bảo vệ tiếp, đưa TK về RealTime -> Nếu TK nằm trong danh sách mới chết thì xóa TK đó khỏi mảng.
+
+Nếu bài là Thói Sáo -> Chọn 2 người trong danh sách -> Máy sẽ hiện lên thông báo "Bạn muốn chọn ...." -> Đưa 2 TK về RealTime -> RealTime thêm vào mảng thổi sáo -> RealTime gửi thông báo đến những người trong mảng -> Máy hiện icon cây sáo.
+
+Nếu bài là nữa người, nữa sói -> Qua 1 đêm là bị sói cắn -> RealTime sửa dữ liệu TK thành sói.
+
+Khi trời sáng, RealTime công bố những người trong danh sách mới bị chết -> RealTime thêm những TK này vào mảng đã chết, xóa dữ liệu mảng vừa chết
+
+Khi mọi người chọn lựa người để treo cổ -> Đưa TK về RealTime -> Nếu thời gian đã hết hoặc mọi người đã chọn, RealTime tính người có nhìu phiếu nhất -> Trả TK đó về cho mọi người trong phòng
+
+Người bị treo cổ biện hộ, những người còn lại đồng ý giết hay không -> Phiếu đưa về RealTime -> RealTime tính toán (bài Trưởng Làng sẽ tính là 2 phiếu) xem phiếu nào nhìu hơn, nếu đồng ý nhìu hơn thì TK đó vào mảng đã chết, còn không thì thông báo "... bạn được sống"
+
+Nếu Trường Làng bị chết thì Trưởng Làng sẽ chọn 1 người trong danh sách sống để tiếp tục -> Đưu TK lên RealTime -> RealTime đưa về cho mọi người -> Máy được chọn sẽ hiện icon Trưởng Làng.
+
+Đến buổi sáng nào RealTime tính toán số phiếu sói bằng dân làng gửi tất cả máy sói đã chiến thắng, nếu còn 2 người yêu thì hiện 2 TK chiến thắng, tất cả bị thôi niêm thì TK thổi sáo thắng, chỉ có sói chết hết thì dân làng chiến thắng.
+
+<h1 id="number17"> Viết chuyện</h1>
