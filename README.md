@@ -138,4 +138,44 @@ Cupid (Chỉ đêm đầu tiên) -> 2 người yêu nhau (Chỉ đêm đầu ti�
 
 Đêm đầu tiên
 
-Hôm nay thần tình yêu(D) rất vui vẻ nên đã ban tình yêu tốt đẹp đến 2 bạn trẻ là F và H. Bắt đầu hoàng hôn buôn xuống anh Bảo Vệ(E) hôm nay bỗng dưng cảm thấy 1 điều bất an nên đã sang nhà chị D để bảo vệ chị, khi màn đêm vừa bầy sói(A, B, C) vào buổi sáng nhìn thấy chị D ngọt thịt qua vì thế đêm nay chúng đã quyết xơi chị D nhưng xui sao bọn sói lại không biết nên đã bị anh Bảo Vệ làm cho một trận, cùng lúc đó bà L đã dùng khả năng tiên đoán của bản thân mình chị D xem chị có phải là sói không, nhưng chị D không phải là sói và điều đó đã giúp bà L tin tưởng hơn vào chị D. Ông F dùng khả năng cảm nhận cảm thấy đêm nay không có người chết nên ông ta không dùng bình thuốc, nhưng ông ta lại nghi ngờ anh A là sói nên ông đã cho 1 bình thuốc độc vào nhà anh ấy.
+Hôm nay thần tình yêu(D) rất vui vẻ nên đã ban tình yêu tốt đẹp đến 2 bạn trẻ là ông F và chị H. Bắt đầu hoàng hôn buôn xuống anh Bảo Vệ(E) hôm nay bỗng dưng cảm thấy 1 điều bất an nên đã sang nhà chị D để bảo vệ chị, khi màn đêm vừa bầy sói(A, B, C, P) vào buổi sáng nhìn thấy chị D ngọt thịt qua vì thế đêm nay chúng đã quyết xơi chị D nhưng xui sao bọn sói lại không biết nên đã bị anh Bảo Vệ làm cho một trận, cùng lúc đó người tiên tri bí ẩn của làng(L) đã dùng khả năng tiên đoán của bản thân mình chị D xem chị có phải là sói không, nhưng chị D không phải là sói và điều đó đã giúp bà L tin tưởng hơn vào chị D. Ông phù thủy(F) dùng khả năng cảm nhận cảm thấy đêm nay không có người chết nên ông ta không dùng bình thuốc, nhưng ông ta lại nghi ngờ anh A là sói nên ông đã cho 1 bình thuốc độc vào nhà anh ấy. Ông Thợ Săn(G) thì chọn chị P làm bạn chết chung. Chị thổi sáo(H) có lời nguyền cứ ban đêm là đi thôi niêm những dân làng, đêm nay anh ta đẫ thôi niêm anh A và chị K.
+
+Sáng đầu tiên
+
+Mọi người đã nghe 1 tin dữ đó là cái chết của anh A. Với tin hung như vậy mọi người bắt đầu bàn tán với nhau hăng say đến đêm.
+
+Đêm thứ 2
+
+Đêm nay anh Bảo Vệ(E) cảm thấy khá là bất bình nên đã bảo vệ già làng(J). Bọn sói(B, C, P) thật xảo nguyệt cảm thấy và bà L quá là chước mắt với khả năng nói nhiều của bả nên bọn sói đã quyết định xơi bà L, đồng thời lúc đó bà tiên tri(L) cũng đã dùng khả năng tiên tri để soi chị B thì thật bất ngờ chị B là sói và bà đã quyết định mai sẽ thông báo cho làng biết tin. Ông phù thủy(F) đã hay tin bà L bị giết bởi bầy sói, nhưng bả L nói quá nhiều nên ông F đã nghỉ với con người như bà ấy sẽ chả làm được gì cho sự đời nên ông ấy đã bỏ mặc. Chị thổi sáo(H) đêm nay lại thôi niêm thêm 2 người trong làng đó là anh W và chị D.
+
+Sáng thứ 2
+
+Mọi người trong làng lại nghe đc 1 hung tin đó là bà L nói nhiều nhất làng là đi xa. Mọi người bắt đầu lo sợ và mỗi người có một suy nghĩ độc đoán và họ đã bàn tán đến cuối cùng đẫ đưa chị H lên treo cổ. Mọi người đã cho anh ấy biện hô nhưng anh ta không thuyết phục được ai nên đã tạch và với tình yêu mãnh liệt thì ông F đã gieo mình xuống vược sâu để được theo anh H, để lại mọi sự thắc mắc với lí do gì mà ông F lại tự vẫn nhưng chị D là người đã hiểu rõ lí do tại sao ông F lại lựa chọn như vậy.
+
+Đêm thứ 3
+
+Quá là hoang mang nên anh Bảo Vệ(E) đã tự bảo vệ bản thân anh ta. Bọn sói(B, C, P) đã không biết đc điều đó mà đã tấn công anh E, kết quả bị anh E làm cho 1 trận nên thân. Do bà tiên tri(L) đã ra đi nên không còn ai có thể soi được bầy sói là ai nữa và ông phù thủy(F) đã gieo mình theo tình yêu đẹp, e rằng chỉ có thể dựa vào sự đoàn kết của làng để đưa bọn sói đến cái chết. Chị thổi sáo(H) đã không còn nên mọi người không còn ai bị thôi niêm.
+
+Sáng thứ 3
+
+Mọi người hôm nay thật vui vẻ vì đêm qua không một ai chết cả, nhưng mọi người hầu như chỉ vui vẻ bên ngoài còn bên trong ai ai cũng lo lắng liệu bọn sói đêm qua chỉ là ngủ quên. Vì thế mọi người lại bàn tán và đưa ra quyết định đưa anh W lên sàn. Sau một hồi biện hộ thì anh ấy cũng không thể thoát khỏi cái chết.
+
+Đêm thứ 4 
+
+Qua nhiều ngày sống chung với làng anh Bảo Vệ(E) đã đem lòng thương chị K nên đêm nay anh ấy đã quyết định bảo vệ chị K. Do đêm qua bọn sói(B, C, P) đã bị anh E cho đo ván, nên đêm nay tụi nó quyết định báo thù đã tấn công anh E và do anh E đã không chuẩn bị nên anh ấy đã đi theo những người kia. Và những người đã có những khả năng đặc biệt đã đi xa thì liệu dân làng có chiến thắng được bon sói hay không.
+
+Sáng thứ 4
+
+Không gì quá bất ngời đến với mọi người về sự ra đi của anh E, mọi người lại bồn xồn lên và đưa ra quyết định cho chị K lên phán quyết. Với kinh nghiệm nhiều lần nghe của những người đi trước nên chị K đã chứng minh sự trong sạch của bản thân.
+
+Đêm thứ 5 
+
+Đêm nay sẽ là đêm tàn khóc của những người còn sống sót trong làng vì họ hầu như không còn năng lực bảo vệ. Bọn sói(B, C, P) đã biết như vậy nên hôm qua sói đã không đưa ra quyết định nhanh chóng mà lượn lờ từng người xem ai thú vị, sau một lúc lượn lờ thì bọn chúng đã chọn chị D lên thớt, với sự bất phản kháng thì chị ấy đã đi xa.
+
+Sáng thứ 5 
+
+Trên khuôn mặt của mọi người đã không còn một giọt máu vì đã nghe tin chị D hiền hâu đã đi xa. Mọi người lại tiếp tục bàn tán xem có khả tìm được sói không thì mọi người đã chọn được chị B và ông G lên, nhưng do trưởng làng(J) đã bỏ phiếu cho chị B nên chị B đã phải lãnh thêm 1 phiếu, cuối cùng để có mình chị B bị đưa ra phán quyết. Do chị B đã không có tài con nói nên chị ta đã có một kết cục không được đẹp.
+
+Đêm thứ 6 
+
+Với sự bỏ phiếu lúc sống của trưởng làng(J) nên bọn sói(C, P) đã tấn công ông ấy. Sau khi tấn công trưởng làng thì số lượng sói đã bằng với dân làng nên chúng không có gì hối tiếc nên đã tấn công 2 người còn lại trong làng. Dân làng đã yếu đuối trước sự tấn công của bầy sói nên làng đã thuộc về bầy sói.
