@@ -7,8 +7,16 @@
   <li><a href ="#number06">Cài đặt</a></li>
   <li><a href ="#number07">Tạo phòng</a></li>
   <li><a href ="#number08">Tham gia phòng</a></li>
-  <li><a href ="#number09">Đăng Ký</a></li>
-  <li><a href ="#number10">Đăng Ký</a></li>
+  <li><a href ="#number09">Tìm kiếm bạn trong phòng</a></li>
+  <li><a href ="#number10">Cài đặt phòng</a></li>
+  <li><a href ="#number11">Đuổi</a></li>
+  <li><a href ="#number12">Xem lịch sử</a></li>
+  <li><a href ="#number13">Cài đặt phòng</a></li>
+  <li><a href ="#number14">Cài đặt phòng</a></li>
+  <li><a href ="#number15">Cài đặt phòng</a></li>
+  <li><a href ="#number16">Cài đặt phòng</a></li>
+  <li><a href ="#number17">Cài đặt phòng</a></li>
+  <li><a href ="#number18">Cài đặt phòng</a></li>
 </ul>
 
 <h1 id="number01"> Đăng ký </h1>
@@ -49,4 +57,22 @@ Bấm vào biểu tượng ☰ -> Chọn tạo phòng -> Api(CreateRoom) thêm d
 
 Bấm vào phòng mà muốn vào -> Api(CheckPass) kiểm tra phòng có mật khẩu, nếu không thì vào phòng, nếu có thì gửi pass về cho máy -> Nhập pass vào khung -> Máy kiểm tra pass, nếu đúng thì vào phòng, nếu sai thì hiện thông báo "Nhập sai mật khẩu"
 
-Khi vào phòng -> Api(GetPlayer) thêm dữ liệu vào bảng ROOMDETAIL và trả danh sách người(tên, hình, boss) đã tham gia phòng trước -> Gửi TK lên RealTime -> RealTime gửi UserId cho những người đã có trong phòng và gửi số lượng mới của phòng cho những người đang hoạt động còn lại.
+Khi vào phòng -> Api(GetRoom) cập nhật thêm SL vào bảng ROOM và thêm dữ liệu vào bảng ROOMDETAIL và bao gồm thông tin bảng ROOM (PASS, TIME_VOTE, TIME_ADVOCATE) và danh sách người(NAME, IMG, BOSS) đã tham gia phòng trước -> Gửi TK lên RealTime -> RealTime gửi UserId cho những người đã có trong phòng và gửi số lượng mới của phòng cho những người đang hoạt động còn lại.
+
+<h1 id="number09"> Tìm kiếm bạn trong phòng </h1>
+
+Nhập tên muốn tìm kiếm vào khung tìm kiếm -> Máy tìm kiếm những tên gần giống với từ khóa
+
+<h1 id="number10"> Cài đặt phòng </h1>
+
+Bấm vào biểu tượng ☰ -> Chọn cài đặt -> Thay đổi mật khẩu, nếu không muốn mật khẩu thì để trống, thay đổi thời gian bầu chọn, thời gian biện hộ -> Bấm nút lưu -> Api(UpdateRoom) cập nhật lại bảng ROOM -> Gửi pass, thời gian bầu chọn, thời gian biện hộ lên RealTime -> RealTime gửi lại tất cả người đang trong phòng.
+
+<h1 id="number11"> Đuổi </h1>
+
+Bấm vào biểu tượng ☰ -> Chọn kick
+
+<h1 id="number12"> Xem lịch sử </h1>
+
+Bấm vào biểu tượng ☰ ở MainActivity -> Chọn lịch sử -> Api(GetHistoryList) lấy dữ liệu  (HISTORYID, SL, TIME)
+
+Muốn xem chi tiết lịch sử -> Bấm vào lịch sử muốn xem -> Api(GetHistory) láy dữ liệu (START_TIME, END_TIME, STORYES[START_TIME, END_TIME, CONTENT]) và danh sách người đã chơi (TÊN, HÌNH, BAI, WIN)
