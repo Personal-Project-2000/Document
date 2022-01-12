@@ -1,20 +1,20 @@
 <ul>
-  <li><a href ="#number01">Đăng ký</a></li>
-  <li><a href ="#number02">Đăng nhập</a></li>
-  <li><a href ="#number03">Tìm kiếm phòng</a></li>
-  <li><a href ="#number04">Xem thông tin cá nhân</a></li>
-  <li><a href ="#number05">Thay đổi thông tin cá nhân</a></li>
-  <li><a href ="#number06">Cài đặt</a></li>
-  <li><a href ="#number07">Tạo phòng</a></li>
-  <li><a href ="#number08">Tham gia phòng</a></li>
-  <li><a href ="#number09">Tìm kiếm bạn trong phòng</a></li>
-  <li><a href ="#number10">Cài đặt phòng</a></li>
-  <li><a href ="#number11">Đuổi</a></li>
-  <li><a href ="#number12">Xem lịch sử</a></li>
-  <li><a href ="#number13">Bầu chọn trưởng làng</a></li>
-  <li><a href ="#number14">Nhường trưởng làng</a></li>
-  <li><a href ="#number15">Bắt đầu và Sẳn sàng</a></li>
-  <li><a href ="#number16">Cài đặt phòng</a></li>
+  <li><a href ="#number01">01/ Đăng ký</a></li>
+  <li><a href ="#number02">02/ Đăng nhập</a></li>
+  <li><a href ="#number03">03/ Tìm kiếm phòng</a></li>
+  <li><a href ="#number04">04/ Xem thông tin cá nhân</a></li>
+  <li><a href ="#number05">05/ Thay đổi thông tin cá nhân</a></li>
+  <li><a href ="#number06">06/ Cài đặt</a></li>
+  <li><a href ="#number07">07/ Tạo phòng</a></li>
+  <li><a href ="#number08">08/ Tham gia phòng</a></li>
+  <li><a href ="#number09">09/ Tìm kiếm bạn trong phòng</a></li>
+  <li><a href ="#number10">10/ Cài đặt phòng</a></li>
+  <li><a href ="#number11">11/ Đuổi</a></li>
+  <li><a href ="#number12">12/ Xem lịch sử</a></li>
+  <li><a href ="#number13">13/ Bầu chọn trưởng làng</a></li>
+  <li><a href ="#number14">14/ Nhường trưởng làng</a></li>
+  <li><a href ="#number15">15/ Bắt đầu và Sẳn sàng</a></li>
+  <li><a href ="#number16">16/ Cài đặt phòng</a></li>
   <li><a href ="#number17">Cài đặt phòng</a></li>
   <li><a href ="#number18">Cài đặt phòng</a></li>
 </ul>
@@ -78,6 +78,8 @@ Bấm vào biểu tượng ☰ ở MainActivity -> Chọn lịch sử -> Api(Get
 Muốn xem chi tiết lịch sử -> Bấm vào lịch sử muốn xem -> Api(GetHistory) láy dữ liệu (START_TIME, END_TIME, STORYES[START_TIME, END_TIME, CONTENT]) và danh sách người đã chơi (TÊN, HÌNH, BAI, WIN)
 
 Chia sẽ câu chuyện cho người khác đọc -> Bấm nút chia sẽ -> Chọn app chia sẽ
+
+Tìm kiếm: Nhập hoặc dùng mic để điền từ khóa tìm kiếm là tên 1 người trong câu chuyện hay tên câu chuyện bạn đã đặt -> Api(SearchHistory) tìm kiếm truy tìm theo tên câu chuyên có không có thì tìm tên nhân vật, nếu có là trả dữ liệu gần giống với từ khóa, nếu không thì hiện thông báo "Câu chuyện tìm kiếm hiện không tồn tại".
 
 <h1 id="number13"> Bầu chọn trưởng làng </h1>
 
