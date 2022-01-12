@@ -124,6 +124,18 @@ Người bị treo cổ biện hộ, những người còn lại đồng ý gi�
 
 Nếu Trường Làng bị chết thì Trưởng Làng sẽ chọn 1 người trong danh sách sống để tiếp tục -> Đưu TK lên RealTime -> RealTime đưa về cho mọi người -> Máy được chọn sẽ hiện icon Trưởng Làng.
 
+Nếu là Thợ Săn bị chết thì người là mà thợ săn đã bắn thì bị chết theo.
+
+Nếu 1 trong 2 người đang yêu mà bị treo cổ thì đồng thời người lại cũng phải chết.
+
 Đến buổi sáng nào RealTime tính toán số phiếu sói bằng dân làng gửi tất cả máy sói đã chiến thắng, nếu còn 2 người yêu thì hiện 2 TK chiến thắng, tất cả bị thôi niêm thì TK thổi sáo thắng, chỉ có sói chết hết thì dân làng chiến thắng.
 
 <h1 id="number17"> Viết chuyện</h1>
+
+Cupid (Chỉ đêm đầu tiên) -> 2 người yêu nhau (Chỉ đêm đầu tiên) -> Bảo vệ -> Sói -> Tiên Tri -> Phù Thủy -> Thổi sáo -> Những người bị thôi miên -> Già Làng (Chỉ đêm đầu tiên) -> Thợ Săn (Chỉ đêm đầu tiên).
+
+Ở một ngôi làng nọ rất yêu bình, bỗng nhiên xuất hiện 1 bầy sói giả dân làng, cứ mỗi đêm chúng lại giết 1 dân làng.
+
+Đêm đầu tiên
+
+Hôm nay thần tình yêu(D) rất vui vẻ nên đã ban tình yêu tốt đẹp đến 2 bạn trẻ là F và H. Bắt đầu hoàng hôn buôn xuống anh Bảo Vệ(E) hôm nay bỗng dưng cảm thấy 1 điều bất an nên đã sang nhà chị D để bảo vệ chị, khi màn đêm vừa bầy sói(A, B, C) vào buổi sáng nhìn thấy chị D ngọt thịt qua vì thế đêm nay chúng đã quyết xơi chị D nhưng xui sao bọn sói lại không biết nên đã bị anh Bảo Vệ làm cho một trận, cùng lúc đó bà L đã dùng khả năng tiên đoán của bản thân mình chị D xem chị có phải là sói không, nhưng chị D không phải là sói và điều đó đã giúp bà L tin tưởng hơn vào chị D. Ông F dùng khả năng cảm nhận cảm thấy đêm nay không có người chết nên ông ta không dùng bình thuốc, nhưng ông ta lại nghi ngờ anh A là sói nên ông đã cho 1 bình thuốc độc vào nhà anh ấy.
