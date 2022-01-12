@@ -77,6 +77,8 @@ Bấm vào biểu tượng ☰ ở MainActivity -> Chọn lịch sử -> Api(Get
 
 Muốn xem chi tiết lịch sử -> Bấm vào lịch sử muốn xem -> Api(GetHistory) láy dữ liệu (START_TIME, END_TIME, STORYES[START_TIME, END_TIME, CONTENT]) và danh sách người đã chơi (TÊN, HÌNH, BAI, WIN)
 
+Chia sẽ câu chuyện cho người khác đọc -> Bấm nút chia sẽ -> Chọn app chia sẽ
+
 <h1 id="number13"> Bầu chọn trưởng làng </h1>
 
 Nếu có trên 7 người chơi thì Activity Vote trưởng làng được hiện ra -> Mỗi người chọn một người -> Gửi TK chọn lên RealTime -> RealTime sau khi nhận đủ số lượng phiếu hoặc hết thời gian thì bắt đầu tổng hợp người có phiếu cao nhất -> Trả về cho các người chơi, ai là được bầu sẽ hiện icon Trưởng Làng, mọi người còn lại sẽ thấy người đó trong danh sách có icon Trưởng Làng.
